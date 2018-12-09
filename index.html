@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128497412-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128497412-1');
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Diane Gayden | Full Stack Web Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!--  HEADER  -->
+    <header id="main-header">
+      <div class="row no-gutters">
+        <div class="col-lg-5 col-md-6">
+          <img src="img/ProfileImage.jpg" alt="">
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <div class="d-flex flex-column">
+            <div class="p-5 bg-dark text-white">
+              <div class="d-flex flex-row justify-content-between align-items-center">
+                <h1 class="display">Diane Gayden</h1>
+                <div class="d-none d-md-block p-1">
+                  <a href="https://twitter.com/GaydenDiane" title="Follow me on Twitter" class="text-white p-2">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                </div>
+                <div class="d-none d-md-block p-1">
+                  <a href="https://www.linkedin.com/in/dianegaydenin/" title="Connect with me on LinkedIn" class="text-white p-2">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                  </a>
+                </div>
+                <div class="d-none d-md-block p-1">
+                  <a href="https://github.com/OTR500miles2go" title="Follow me on GitHub" class="text-white p-2">
+                    <i class="fab fa-github fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row no-gutters">            
+              <div class="col p-3 py-5 bg-black text-left ">
+                    Full Stack Web Developer
+                  </div>
+              <div class="col p-3 py-5 bg-black align-items-end text-right">
+                <a href="documents/PublicResume.pdf" target="_blank" class="btn btn-outline-light">
+                  View Resume
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <div class="d-flex flex-row text-white align-items-stretch text-center">
+                <div class="col port-item p-3 bg-primary" data-toggle="collapse" data-target="#home">
+                  <i class="fas fa-home fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">Home</span>
+                </div>
+                <div class="col port-item p-3 bg-warning" data-toggle="collapse" data-target="#news">
+                  <i class="fas fa-code fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">News</span>
+                </div>
+                <div class="col port-item p-3 bg-success" data-toggle="collapse" data-target="#projects">
+                  <i class="fas fa-folder-open fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">Projects</span>
+                </div>
+                <div class="col port-item p-3 bg-danger" data-toggle="collapse" data-target="#contact">
+                  <i class="fas fa-envelope fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">Contact</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- HOME -->
+    <div id="home" class="collapse show">
+      <div class="card card-body bg-primary text-white py-5">
+        <h2>Welcome To My Page</h2>
+        <p class="lead">“If you're waiting until you feel talented enough to make it, you'll never make it.”
+          ― Criss Jami, Healology</p>
+      </div>
+    
+
+      <!-- TESTING -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown
+                  <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown
+                  <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <!-- END TESTING -->
+
+      <div class="card card-body py-5">
+        <h3>My Skills</h3>
+        <span class="well"><p class="text-monospace">JavaScript, HTML, CSS, Ruby on Rails, SQL, Git</p></span>
+        <hr>
+      </div>
+    </div>
+
+
+    <!--  NEWS  -->
+    <div id="news" class="collapse">
+      <div class="card card-body py-5">
+        <h3>Current events in my world.</h3>
+        <br>
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Hackathon</h4>
+              <p class="card-text">I have my freeCodeCamp JAMstack hackathon ticket.  I'm looking forward to participating in this event.</p>
+            </div>
+            <div class="card-footer">
+              <h6 class="text-muted">Dates: November 3-4, 2018</h6>
+            </div>
+          </div>
+      
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Udemy</h4>
+              <p class="card-text">I've purchased a few courses at the deeply discounted prices ($9.00 - $12.00).  I'd be willing to pay a bit more for just about any course from Brad Traversy.  I started watching his YouTube channel but I got tired of watching him and all others type.  What's different in his Udemy courses is more than 50% less typing.  This webpage you are viewing now is heavily influenced from his <em>Bootstrap 4 From Scratch With 5 Projects</em> course.</p>
+            </div>
+            <div class="card-footer">
+              <h6 class="text-muted">Dates: September 2018</h6>
+            </div>
+          </div>
+      
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Learning from...</h4>
+              <ul class="list-group mb-2">
+                <a class="list-group-item" href="https://www.bloc.io/" target="_blank">Bloc</a>
+                <a class="list-group-item" href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a>
+                <a class="list-group-item" href="https://www.teamtreehouse.com" target="_blank">Treehouse</a>
+                <a class="list-group-item" href="https://www.udemy.com" target="_blank">Udemy</a>
+                <a class="list-group-item" href="https://www.sololearn.com" target="_blank">SoloLearn</a>
+                <a class="list-group-item" href="https://www.pluralsight.com/product/role-iq" target="_blank">Pluralsight</a>
+                <a class="list-group-item" href="https://www.w3schools.com" target="_blank">W3Schools</a>     
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h6 class="text-muted">Dates: Infinity & Beyond</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- PROJECTS -->
+    <div id="projects" class="collapse">
+      <div class="card card-body bg-success text-white py-5">
+        <h2>My Projects</h2>
+        <p class="lead">Good, better, best. Never let it rest. 'Til your good is better and your better is best.
+          ― St. Jerome
+        </p>
+      </div>
+    
+      <div class="card card-body py-4 align-items-center">
+        <div>
+          <div class="p-3 m-3 media bg-light border border-success">
+            <div class="media-left">
+              <a href="https://heuristic-sammet-9238f0.netlify.com/" target="_blank">
+                <img class="media-object img-thumbnail sizer" src="img/p bloc jams.png" alt="Coding Project Picture">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="p-5 media-heading text-right">JavaScript, jQuery</h4>
+            </div>
+          </div>
+
+          <div class="p-3 m-3 media bg-light border border-success">
+            <div class="media-left">
+              <a href="https://shielded-badlands-77336.herokuapp.com/index.html" target="_blank">
+                <img class="media-object img-thumbnail sizer" src="img/p detroit tribute.png" alt="Coding Project Picture">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="p-5 media-heading text-right">HTML, CSS</h4>
+            </div>
+          </div>
+
+          <div class="p-3 m-3 media bg-light border border-success">
+            <div class="media-left">
+              <a href="https://sad-hopper-013954.netlify.com/" target="_blank">
+                <img class="media-object img-thumbnail sizer" src="img/p mixed emotions.png" alt="Coding Project Picture">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="p-5 media-heading text-right">Mobirise Website Builder</h4>
+            </div>
+          </div>
+
+          <div class="p-3 m-3 media bg-light border border-success">
+            <div class="media-left">
+              <a href="https://youthful-lalande-629309.netlify.com/" target="_blank">
+                <img class="media-object img-thumbnail sizer" src="img/p pong.png" alt="Coding Project Picture">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="p-5 media-heading text-right">JavaScript, HTML, CSS</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- CONTACT -->
+    <div id="contact" class="collapse">
+      <div class="card card-body bg-danger text-white py-5 d-flex flex-row justify-content-between align-items-center">
+        <h2>Contact</h2>
+          <div class="d-none d-md-block p-5">
+            <a href="https://twitter.com/GaydenDiane" title="Follow me on Twitter" class="text-white p-2">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+          </div>
+          <div class="d-none d-md-block p-5">
+            <a href="https://www.linkedin.com/in/dianegaydenin/" title="Connect with me on LinkedIn" class="text-white p-2">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </div>
+          <div class="d-none d-md-block p-5">
+            <a href="https://github.com/OTR500miles2go" title="Follow me on GitHub" class="text-white p-2">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </div>
+      </div>
+    
+      <div class="card card-body py-5">
+        <h3>Say Hello</h3>
+        <p>COMMENTS / COLLABORATIONS / QUESTIONS</p>
+        <form action="https://submit-form.com/e887597a-3ae9-45fb-812f-13e9c29c0db5" >
+          <input type="hidden" name="_redirect" value="https://dianegayden.com/index.html" >
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-danger text-white">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control bg-dark text-white" placeholder="Name" name="name" required>
+            </div>
+          </div>
+    
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-danger text-white">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+              <input type="email" class="form-control bg-dark text-white" placeholder="Email" name="email" required>
+            </div>
+          </div>
+    
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-danger text-white">
+                  <i class="fas fa-pencil-alt"></i>
+                </span>
+              </div>
+              <textarea class="form-control bg-dark text-white" placeholder="Message" name="message"></textarea>
+            </div>
+          </div>
+
+          <span class="msg-error error"></span>
+          <div id="recaptcha" class="g-recaptcha" data-sitekey="6LeclH8UAAAAALLc_Z-8cmnJD7zvHH0ry-9IK7oa"></div>
+          <hr>
+          <button id="btn-validate" type="submit" class="btn btn-danger btn-block btn-lg">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    
+    <!-- FOOTER -->
+    <footer id="main-footer" class="p-5 bg-dark text-white">
+      <div class="row">
+        <div class="col-md-6 m-5">
+          <a href="documents/PublicResume.pdf" target="_blank" class="btn btn-outline-light">
+            View Resume
+          </a>
+        </div>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-6 ml-auto">
+              <p class="lead">
+                Copyright &copy;
+                <span id="year">2018, Diane Gayden
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    $('.port-item').click(function () {
+      $('.collapse').collapse('hide');
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+      e.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>  
+
+  <script>
+    $('#btn-validate').click(function () {
+      var $captcha = $('#recaptcha'),
+        response = grecaptcha.getResponse();
+
+      if (response.length === 0) {
+        $('.msg-error').text("reCAPTCHA is mandatory");
+        if (!$captcha.hasClass("error")) {
+          $captcha.addClass("error");
+        }
+      } else {
+        $('.msg-error').text('');
+        $captcha.removeClass("error");
+        alert('reCAPTCHA marked');
+      }
+    })
+  </script>
+
+</body>
+</html>
